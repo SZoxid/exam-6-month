@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin</title>
+    <link rel="stylesheet" href="./stylsheets/main.css" />
+    <script type="module" defer src="./admin.js"></script>
+  </head>
+
+  <body>
+    <div class="main-wrapper">
+      <div class="form-container2">
+        <h1>Admin</h1>
+        <form class="form-control2">
+          <input type="text" name="title" id="title" placeholder="Name" />
+          <input type="number" name="price" id="price" placeholder="Price" />
+          <textarea
+            rows="3"
+            name="description"
+            id="description"
+            placeholder="Description"
+          ></textarea>
+          <button type="button" id="add-product">Click</button>
+        </form>
+        <div class="products-control">
+          <h2>Products</h2>
+          <ul id="product-list"></ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
